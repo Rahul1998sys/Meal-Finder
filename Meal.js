@@ -59,6 +59,7 @@ function getRandomMeal() {
     });
 }
 
+// Adding Meals
 function addMealToDOM(meal) {
   const ingredients = [];
   for (let i = 1; i <= 20; i++) {
